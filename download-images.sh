@@ -11,7 +11,7 @@ IMAGES=(
   "https://cdn-icons-png.flaticon.com/512/3277/3277345.png" # caderno
   "https://cdn-icons-png.flaticon.com/512/8058/8058185.png" # régua
   "https://cdn-icons-png.flaticon.com/512/10363/10363577.png" # tesoura
-  "https://cdn-icons-png.flaticon.com/512/546/546666.png " # cola
+  "https://cdn-icons-png.flaticon.com/512/546/546666.png" # cola
   "https://cdn-icons-png.flaticon.com/512/15639/15639645.png" # apontador
   "https://cdn-icons-png.flaticon.com/512/595/595570.png" # pincel
   "https://cdn-icons-png.flaticon.com/512/3275/3275938.png" # mochila
