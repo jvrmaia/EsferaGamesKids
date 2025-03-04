@@ -1,56 +1,59 @@
 import { Card } from '../types';
 
+// Obter o caminho base configurado no Vite
+const basePath = import.meta.env.BASE_URL;
+
 // Dados das cartas (sem as propriedades flipped e matched)
 const cardData = [
   {
     id: 1,
     name: 'Lápis',
-    imageUrl: '/images/pencil.png',
+    imageUrl: `${basePath}images/pencil.png`,
   },
   {
     id: 2,
     name: 'Caneta',
-    imageUrl: '/images/pen.png',
+    imageUrl: `${basePath}images/pen.png`,
   },
   {
     id: 3,
     name: 'Borracha',
-    imageUrl: '/images/eraser.png',
+    imageUrl: `${basePath}images/eraser.png`,
   },
   {
     id: 4,
     name: 'Caderno',
-    imageUrl: '/images/notebook.png',
+    imageUrl: `${basePath}images/notebook.png`,
   },
   {
     id: 5,
     name: 'Régua',
-    imageUrl: '/images/ruler.png',
+    imageUrl: `${basePath}images/ruler.png`,
   },
   {
     id: 6,
     name: 'Tesoura',
-    imageUrl: '/images/scissors.png',
+    imageUrl: `${basePath}images/scissors.png`,
   },
   {
     id: 7,
     name: 'Cola',
-    imageUrl: '/images/glue.png',
+    imageUrl: `${basePath}images/glue.png`,
   },
   {
     id: 8,
     name: 'Apontador',
-    imageUrl: '/images/sharpener.png',
+    imageUrl: `${basePath}images/sharpener.png`,
   },
   {
     id: 9,
     name: 'Pincel',
-    imageUrl: '/images/brush.png',
+    imageUrl: `${basePath}images/brush.png`,
   },
   {
     id: 10,
     name: 'Mochila',
-    imageUrl: '/images/backpack.png',
+    imageUrl: `${basePath}images/backpack.png`,
   },
 ];
 

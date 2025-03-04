@@ -8,8 +8,8 @@ IMAGES=(
   "https://cdn-icons-png.flaticon.com/512/227/227104.png" # lápis
   "https://cdn-icons-png.flaticon.com/512/2493/2493508.png" # caneta
   "https://cdn-icons-png.flaticon.com/512/2661/2661282.png" # borracha
-  "" # caderno
-  "" # régua
+  "https://cdn-icons-png.flaticon.com/512/3277/3277345.png" # caderno
+  "https://cdn-icons-png.flaticon.com/512/8058/8058185.png" # régua
   "" # tesoura
   "" # cola
   "" # apontador
