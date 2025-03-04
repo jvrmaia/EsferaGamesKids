@@ -16,7 +16,7 @@ const MemoryCard: React.FC<MemoryCardProps> = ({ card, onClick, disabled }) => {
 
   return (
     <div 
-      className="relative w-24 h-32 md:w-28 md:h-36 cursor-pointer perspective-500"
+      className="relative w-16 h-24 sm:w-20 sm:h-28 md:w-24 md:h-32 lg:w-28 lg:h-36 cursor-pointer perspective-500"
       onClick={handleClick}
     >
       {/* Container para o efeito de flip */}
@@ -28,19 +28,21 @@ const MemoryCard: React.FC<MemoryCardProps> = ({ card, onClick, disabled }) => {
         {/* Verso do cartão (face inicial) */}
         <div className="absolute w-full h-full rounded-lg shadow-md backface-hidden">
           <div className="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-            <span className="text-white text-2xl font-bold">?</span>
+            <span className="text-white text-xl sm:text-2xl font-bold">?</span>
           </div>
         </div>
         
         {/* Frente do cartão (face virada) */}
         <div className="absolute w-full h-full rounded-lg shadow-md backface-hidden rotate-y-180">
-          <div className="w-full h-full bg-white rounded-lg p-2 flex flex-col items-center justify-center">
+          <div className="w-full h-full bg-white rounded-lg p-1 sm:p-2 flex flex-col items-center justify-center">
             <img 
               src={card.imageUrl} 
               alt={card.name} 
               className="w-full h-3/4 object-contain"
             />
-            <p className="text-center text-xs mt-1 font-medium text-gray-700">{card.name}</p>
+            <p className="text-center text-[8px] sm:text-xs mt-1 font-medium text-gray-700 truncate w-full">
+              {card.name}
+            </p>
           </div>
         </div>
       </div>

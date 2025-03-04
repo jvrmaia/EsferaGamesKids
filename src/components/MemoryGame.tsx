@@ -153,12 +153,12 @@ const MemoryGame: React.FC = () => {
     
     return (
       <>
-        <div className="flex justify-between items-center mb-6">
-          <h2 className="text-xl font-bold text-gray-800">Jogo da Memória</h2>
+        <div className="flex justify-between items-center mb-4 sm:mb-6">
+          <h2 className="text-lg sm:text-xl font-bold text-gray-800">Jogo da Memória</h2>
           <Timer time={formatTime()} isFinished={isFinished} />
         </div>
         
-        <div className="grid grid-cols-4 md:grid-cols-5 gap-4 justify-items-center">
+        <div className="grid grid-cols-5 gap-2 sm:gap-3 md:gap-4 justify-items-center">
           {cards.map(card => (
             <MemoryCard
               key={card.id}
@@ -170,9 +170,9 @@ const MemoryGame: React.FC = () => {
         </div>
         
         {!gameStarted && (
-          <div className="mt-6 text-center">
-            <p className="text-gray-600 mb-4">Clique em uma carta para começar o jogo!</p>
-            <p className="text-sm text-gray-500">Você tem 5 minutos para encontrar todos os pares.</p>
+          <div className="mt-4 sm:mt-6 text-center">
+            <p className="text-sm sm:text-base text-gray-600 mb-2 sm:mb-4">Clique em uma carta para começar o jogo!</p>
+            <p className="text-xs sm:text-sm text-gray-500">Você tem 5 minutos para encontrar todos os pares.</p>
           </div>
         )}
       </>
@@ -180,7 +180,7 @@ const MemoryGame: React.FC = () => {
   };
   
   return (
-    <div className="w-full max-w-4xl mx-auto p-4">
+    <div className="w-full mx-auto p-2 sm:p-4">
       {renderContent()}
     </div>
   );
