@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from './components/Header';
 import MemoryGame from './components/MemoryGame';
 import Footer from './components/Footer';

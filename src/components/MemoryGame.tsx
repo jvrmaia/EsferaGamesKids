@@ -18,7 +18,7 @@ const MemoryGame: React.FC = () => {
   const [showForm, setShowForm] = useState<boolean>(false);
   const [showRanking, setShowRanking] = useState<boolean>(false);
   
-  const { time, isRunning, isFinished, startTimer, stopTimer, resetTimer, formatTime } = useTimer();
+  const { time, isFinished, startTimer, stopTimer, resetTimer, formatTime } = useTimer();
   const { ranking, addPlayer } = useRanking();
   
   // Inicializar o jogo

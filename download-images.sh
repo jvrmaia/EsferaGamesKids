@@ -5,16 +5,16 @@ mkdir -p public/images
 
 # URLs de imagens de exemplo (usando ícones gratuitos do Flaticon)
 IMAGES=(
-  "https://cdn-icons-png.flaticon.com/512/3270/3270925.png" # lápis
-  "https://cdn-icons-png.flaticon.com/512/3094/3094841.png" # caneta
-  "https://cdn-icons-png.flaticon.com/512/3209/3209265.png" # borracha
-  "https://cdn-icons-png.flaticon.com/512/2965/2965300.png" # caderno
-  "https://cdn-icons-png.flaticon.com/512/3209/3209265.png" # régua
-  "https://cdn-icons-png.flaticon.com/512/3209/3209102.png" # tesoura
-  "https://cdn-icons-png.flaticon.com/512/3209/3209267.png" # cola
-  "https://cdn-icons-png.flaticon.com/512/3209/3209262.png" # apontador
-  "https://cdn-icons-png.flaticon.com/512/3209/3209256.png" # pincel
-  "https://cdn-icons-png.flaticon.com/512/2965/2965253.png" # mochila
+  "https://cdn-icons-png.flaticon.com/512/227/227104.png" # lápis
+  "https://cdn-icons-png.flaticon.com/512/2493/2493508.png" # caneta
+  "https://cdn-icons-png.flaticon.com/512/2661/2661282.png" # borracha
+  "" # caderno
+  "" # régua
+  "" # tesoura
+  "" # cola
+  "" # apontador
+  "" # pincel
+  "" # mochila
 )
 
 NAMES=(
